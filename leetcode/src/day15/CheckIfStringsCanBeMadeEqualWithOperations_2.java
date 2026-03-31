@@ -11,12 +11,12 @@ public class CheckIfStringsCanBeMadeEqualWithOperations_2 {
         int[] odd=new int[26];
         for(int i=0;i<s1.length();i++){
             if(i%2==0){
-                even[s1.charAt(i)-'a']++;
-                even[s2.charAt(i)-'a']--;
+                even[s1.charAt(i)-'a']++;//[1,0,0,0,0..]
+                even[s2.charAt(i)-'a']--;//[1,0,-1,0,0..]
             }
             else {
-                odd[s1.charAt(i)-'a']++;
-                odd[s2.charAt(i)-'a']--;
+                odd[s1.charAt(i)-'a']++;//[0,1,0,]
+                odd[s2.charAt(i)-'a']--;//[0,0,0,..]
             }
         }
         for(int i=0;i<26;i++){

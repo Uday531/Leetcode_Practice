@@ -27,9 +27,9 @@ public class BinaryTreeInorderTraversal_94 {
         if (node == null) {
             return;
         }
-        hell(node.left, res);   // Left
+//        hell(node.left, res);   // Left
         res.add(node.data);     // Root
-        hell(node.right, res);  // Right
+//        hell(node.right, res);  // Right
     }
 
     public static class TreeNode12 {
@@ -39,8 +39,8 @@ public class BinaryTreeInorderTraversal_94 {
 
         TreeNode12(int data, TreeNode12 left, TreeNode12 right) {
             this.data = data;
-            this.left = left;
-            this.right = right;
+//            this.left = left;
+//            this.right = right;
         }
     }
 }
