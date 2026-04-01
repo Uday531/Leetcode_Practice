@@ -20,11 +20,11 @@ public class MaximumDepthOfBinaryTrees {
         return 1+Math.max(left,right);
     }
     public static class TreeNode12 {
-        int data;
-        TreeNode12 left;
-        TreeNode12 right;
+        public int data;
+        public TreeNode12 left;
+        public TreeNode12 right;
 
-        TreeNode12(int data, TreeNode12 left, TreeNode12 right) {
+        public TreeNode12(int data, TreeNode12 left, TreeNode12 right) {
             this.data = data;
             this.left = left;
             this.right = right;
