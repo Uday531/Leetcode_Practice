@@ -14,7 +14,7 @@ public class LongestCommonPrefix_14 {
         }
         for(int i=0;i<a[0].length();i++) {
             char c = a[0].charAt(i);
-            for (int j = 1; j < a.length; j++) {
+            for (int j = 1; j < a.length; j++){
                 if (i >=a[j].length() || a[j].charAt(i)!=c){
                     return a[0].substring(0,i);
                 }
