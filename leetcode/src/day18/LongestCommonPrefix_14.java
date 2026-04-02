@@ -1,8 +1,5 @@
 package day18;
 
-import java.util.HashMap;
-import java.util.HashSet;
-
 public class LongestCommonPrefix_14 {
     static void main() {
         String[] a={"flower","flow","flight"};
