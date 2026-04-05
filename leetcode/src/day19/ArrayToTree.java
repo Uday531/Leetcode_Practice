@@ -13,8 +13,6 @@ public class ArrayToTree {
             this.val = val;
         }
     }
-
-    // 🔥 reusable method
     public static TreeNode12 buildTree(Integer[] arr) {
         if (arr == null || arr.length == 0) return null;
 
