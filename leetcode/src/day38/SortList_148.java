@@ -49,11 +49,12 @@ public class SortList_148 {
             }
             tail = tail.next;
         }
-
-        // attach remaining
-        if (l1 != null) tail.next = l1;
-        if (l2 != null) tail.next = l2;
-
+        if (l1 != null) {
+            tail.next = l1;
+        }
+        if (l2 != null) {
+            tail.next = l2;
+        }
         return dummy.next;
     }
 }
@@ -63,5 +64,4 @@ class ListNode{
     ListNode(int val){
         this.val=val;
     }
-
 }
