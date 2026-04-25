@@ -3,7 +3,7 @@ import java.util.*;
 
 public class HappyNumber {
     static void main() {
-        int n=12;
+        int n=19;
         System.out.println(isHappy(n));
     }
     public static boolean isHappy(int n) {
