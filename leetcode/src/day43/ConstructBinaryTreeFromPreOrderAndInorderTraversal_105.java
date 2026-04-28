@@ -7,8 +7,8 @@ import java.util.Map;
 
 public class ConstructBinaryTreeFromPreOrderAndInorderTraversal_105 {
     static void main() {
-        int[] preorder={3,9,20,15,7};
-        int[] inorder={9,3,15,20,7};
+        int[] preorder={3,9,20,15,7,6,7};
+        int[] inorder={9,3,15,20,7,8,9};
         ArrayToTree.TreeNode12 r=buildTree(preorder,inorder);
         printLevelOrder(r);
     }
