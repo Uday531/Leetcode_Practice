@@ -3,7 +3,7 @@ package day38;
 public class SortList_148 {
     static void main() {
         ListNode l=new ListNode(1);
-        l.next=new ListNode(2);
+        l.next=new ListNode(6);
         l.next.next=new ListNode(4);
         l.next.next.next=new ListNode(3);
         ListNode res=sortList(l);
