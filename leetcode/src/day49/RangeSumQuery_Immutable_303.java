@@ -2,7 +2,7 @@ package day49;
 
 public class RangeSumQuery_Immutable_303 {
     static void main() {
-        int[] nums = {-2, 0, 3, -5, 2, -1};
+        int[] nums = {-2, 0, 3, -5, 2, -1,-8};
         RangeSumQuery_Immutable_303 obj = new RangeSumQuery_Immutable_303(nums);
         System.out.println(obj.sumRange(0, 2));
         System.out.println(obj.sumRange(2, 5));
