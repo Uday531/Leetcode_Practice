@@ -6,7 +6,7 @@ import java.util.List;
 
 public class SeperateDigitsInAnArray_2553 {
     static void main() {
-        int[] a={12,34,56};
+        int[] a={12,34,56,78};
         System.out.println(Arrays.toString(seperateDigits(a)));
     }
     public static int[] seperateDigits(int[] a){
