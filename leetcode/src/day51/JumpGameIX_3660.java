@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class JumpGameIX_3660 {
     static void main() {
-        int[] a={2,1,3};
+        int[] a={2,1,3,5};
         System.out.println(Arrays.toString(maxValue(a)));
     }
     public static int[] maxValue(int[] nums){
