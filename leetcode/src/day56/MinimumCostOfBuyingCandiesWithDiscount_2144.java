@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class MinimumCostOfBuyingCandiesWithDiscount_2144 {
     static void main() {
-        int[] a={6,5,7,9,2,2};
+        int[] a={6,5,7,9,2};
         System.out.println(minCost(a));
     }
     public static int minCost(int[] c){
