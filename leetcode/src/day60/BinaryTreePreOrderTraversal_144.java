@@ -41,11 +41,11 @@ public class BinaryTreePreOrderTraversal_144 {
 
         return ans;
     }
-    static class TreeNode{
-        int data;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int data){
+    public static class TreeNode{
+        public int data;
+        public TreeNode left;
+        public TreeNode right;
+        public TreeNode(int data){
             this.data=data;
         }
     }
