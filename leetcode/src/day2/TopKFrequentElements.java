@@ -4,7 +4,7 @@ import java.util.*;
 
 public class TopKFrequentElements {
     static void main() {
-        int[] a={1,4,5,3,1,4,4};
+        int[] a={1,4,5,3,1,4,5};
         int k=3;
         int[] b=topKFrequentElements(a,k);
         System.out.println(Arrays.toString(b));
