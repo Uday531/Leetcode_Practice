@@ -19,16 +19,15 @@ public class ReverseLinkedList {
         ListNode curr = head;
 
         while (curr != null) {
-            ListNode next = curr.next; // store next
-            curr.next = prev;          // reverse link
-            prev = curr;               // move prev
-            curr = next;               // move curr
+            ListNode next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
         }
 
-        return prev; // new head
+        return prev;
     }
 
-    // Utility function to print list
     public static void printList(ListNode head) {
         ListNode curr = head;
         while (curr != null) {
