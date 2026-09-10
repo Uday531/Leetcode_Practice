@@ -13,11 +13,11 @@ public class MiddleOfALinkedList_876 {
     static void main() {
         ListNode l1=new ListNode(1);
     }
-    static class ListNode{
+    public static class ListNode{
         ListNode head;
-        ListNode next;
-        int val;
-        ListNode(int val){
+        public ListNode next;
+        public int val;
+        public ListNode(int val){
             this.val=val;
         }
     }
